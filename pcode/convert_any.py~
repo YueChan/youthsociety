@@ -1,0 +1,6 @@
+def conv():
+    bas = input('Please enter the base:')
+    num = raw_input('Please enter a decimal number:')
+    print int(num, base = bas)
+
+conv()
