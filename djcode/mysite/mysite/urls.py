@@ -5,6 +5,8 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^polls/', include('polls.urls', namespace = 'polls')),
+    url(r'^attachments/', include('attachments.urls')),
+    url(r'^', include('lbforum.urls')),
     # Examples:
     # url(r'^$', 'mysite.views.home', name='home'),
     # url(r'^mysite/', include('mysite.foo.urls')),
